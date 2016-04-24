@@ -1,0 +1,64 @@
+@font-face{
+    font-family: bebas;
+    src: url(../fonts/BebasNeue.otf);
+}
+
+@font-face{
+    font-family: chaparral;
+    src: url(../fonts/ChaparralPro-Bold.otf);
+}
+
+@font-face{
+    font-family: didot;
+    src: url(../fonts/Didot_Bold_Italic.ttf);
+}
+
+div.green_screen{
+    background-color: #48cb92;
+    width: auto;
+    height: 710px;
+}
+
+div#header{
+    font-family: chaparral;
+    color: white;
+    margin-top: 70px;
+
+}
+
+div#share_links{
+    margin-top: 50px;
+}
+
+div.title{
+    margin-top: 40px;
+}
+
+div#title{
+    font-family: bebas;
+    font-size: 144px;
+    color: white;
+}
+
+div#title2{
+    position:absolute;
+    margin-top: -100px;
+    font-family: bebas;
+    font-size: 144px;
+    color: #48cb92;
+    margin-left: 216px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
+
+div#date{
+    margin-top: 125px;
+    font-size: 32px;
+    color: #770eff;
+    margin-bottom: 50px;
+}
+
+div#tickets{
+
+}
