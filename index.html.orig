@@ -8,7 +8,15 @@
 
 </head>
 <body>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<div class="green_screen container">
+=======
+<div class="green_screen container-fluid">
+>>>>>>> 9ed702b6cd7e9673340dadc73663ef753587a0bc
+=======
 <div class="green_screen container-fluid fill">
+>>>>>>> 035a71822e46a58521c1f894a3799d1dc23ac761
     <div class="row">
         <div id="header" class="col-md-offset-2 col-md-3">
             UCLA Campus Events Commission<br>
@@ -16,7 +24,7 @@
         </div>
         <div class="col-md-7"></div>
     </div>
-    <div class="row title">
+    <div class="row-fluid title">
         <div id="share_links" class="col-md-offset-1 col-md-1">
             <button>f</button>
         </div>
