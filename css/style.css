@@ -57,8 +57,30 @@ div#date{
     font-size: 32px;
     color: #770eff;
     margin-bottom: 50px;
+    font-family: chaparral;
 }
 
 div#tickets{
 
+}
+
+.fill{
+    height: 100%;
+}
+
+.height38{
+    height: 38%;
+}
+
+.padright{
+    padding-right: 30px;
+    font-family: chaparral;
+}
+
+.top-buffer-200{
+    margin-top: 200px;
+}
+
+#lightgrey{
+    background-color: #F6F6F6;
 }
