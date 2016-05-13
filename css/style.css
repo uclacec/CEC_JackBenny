@@ -19,13 +19,6 @@ div.green_screen{
     height: 710px;
 }
 
-.shadow-border{
-    border-width: 8px;
-    border-style: solid;
-    border-color: #6a0b8c;
-    padding-top: 30px;
-}
-
 div#header{
     font-family: chaparral;
     color: white;
@@ -45,22 +38,25 @@ div#title{
     font-family: bebas_bold;
     font-size: 144px;
     color: white;
+    padding: 0;
 }
 
 div#title2{
-    position:absolute;
-    margin-top: -100px;
+    position: relative;
+    top: -135px;
     font-family: bebas_bold;
     font-size: 144px;
     color: #48cb92;
-    margin-left: 216px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
+    z-index: 1;
 }
 
+div.recipient_name{
+}
 
 div#date{
-    margin-top: 125px;
+
     font-size: 32px;
     color: #770eff;
     margin-bottom: 50px;
