@@ -38,22 +38,25 @@ div#title{
     font-family: bebas_bold;
     font-size: 144px;
     color: white;
+    padding: 0;
 }
 
 div#title2{
-    position:absolute;
-    margin-top: -100px;
+    position: relative;
+    top: -135px;
     font-family: bebas_bold;
     font-size: 144px;
     color: #48cb92;
-    margin-left: 216px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
+    z-index: 1;
 }
 
+div.recipient_name{
+}
 
 div#date{
-    margin-top: 125px;
+
     font-size: 32px;
     color: #770eff;
     margin-bottom: 50px;
