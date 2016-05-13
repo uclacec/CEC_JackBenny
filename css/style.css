@@ -19,6 +19,13 @@ div.green_screen{
     height: 710px;
 }
 
+.shadow-border{
+    border-width: 8px;
+    border-style: solid;
+    border-color: #6a0b8c;
+    padding-top: 30px;
+}
+
 div#header{
     font-family: chaparral;
     color: white;
@@ -61,7 +68,14 @@ div#date{
 }
 
 div#tickets{
-
+;
+}
+div.title3{
+    font-size: 80px;
+    font-family: bebas_bold;
+    color: #F6F6F6;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #48cb92;
 }
 
 .fill{
@@ -83,4 +97,9 @@ div#tickets{
 
 #lightgrey{
     background-color: #F6F6F6;
+}
+
+img.resize{
+    width: 400px;
+    height:auto
 }
