@@ -13,10 +13,11 @@
     src: url(../fonts/Didot_Bold_Italic.ttf);
 }
 
+/*Brian's stuff*/
 div.green_screen{
     background-color: #48cb92;
     width: auto;
-    height: 710px;
+    height: 750px;
 }
 
 div#header{
@@ -52,9 +53,6 @@ div#title2{
     z-index: 1;
 }
 
-div.recipient_name{
-}
-
 div#date{
 
     font-size: 32px;
@@ -66,12 +64,22 @@ div#date{
 div#tickets{
 ;
 }
+/*Lucas' Stuff*/
 div.title3{
     font-size: 80px;
     font-family: bebas_bold;
     color: #F6F6F6;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #48cb92;
+    padding-top: 50 px;
+    margin-left: 12.5%;
+}
+
+.shadow-border{
+    border-color: #6a0b8c;
+    border-width: 8 px;
+    border-style: solid;
+    filter: alpha(opacity=0);
 }
 
 .fill{
@@ -82,20 +90,42 @@ div.title3{
     height: 38%;
 }
 
-.padright{
+.leftpar{
     padding-right: 30px;
     font-family: chaparral;
+    padding-top: 40px;
 }
 
 .top-buffer-200{
     margin-top: 200px;
 }
 
-#lightgrey{
-    background-color: #F6F6F6;
+.reciplist{
+    font-family: chaparral;
+    color: #6a0b8c;
+}
+
+#left{
+    margin-left: 25%;
+    float: left;
+}
+#right{
+    margin-left: 62.5%;
+    float: left;
 }
 
 img.resize{
-    width: 400px;
+    width: 320px;
     height:auto
+
+}
+
+#lightgrey{
+    background-color: #F6F6F6;
+    padding-top: 100px;
+}
+
+#multicolor{
+    background: linear-gradient(to bottom,  #f6f6f6 0%,#f6f6f6 75%,white 75%,white 100%);
+
 }
