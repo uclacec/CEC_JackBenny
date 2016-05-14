@@ -13,7 +13,8 @@
     src: url(../fonts/Didot_Bold_Italic.ttf);
 }
 
-/*Brian's stuff*/
+/*Brian's CSS*/
+
 div.green_screen{
     background-color: #48cb92;
     width: auto;
@@ -53,18 +54,49 @@ div#title2{
     z-index: 1;
 }
 
-div#date{
+div.recipient_name{
+}
 
+div#date{
+    padding-left: 0;
     font-size: 32px;
     color: #770eff;
     margin-bottom: 50px;
     font-family: chaparral;
+
 }
 
-div#tickets{
-;
+div.date_row{
+    position: relative;
+    top: -150px;
+    z-index: 1;
+
 }
-/*Lucas' Stuff*/
+
+
+
+div#tickets{
+    position: relative;
+    top: -150px;
+    z-index: 1;
+    padding: 0;
+}
+
+div.squiggly_box{
+    position: absolute;
+    top: 85%;
+    left: 58%;
+    width: 36%;
+    height: 65%;
+    z-index: 2;
+    background-color: #ffffff;
+    padding: 45px;
+    color: #770eff;
+    font-size: 18px;
+}
+
+/*Lucas's CSS*/
+
 div.title3{
     font-size: 80px;
     font-family: bebas_bold;
@@ -94,6 +126,10 @@ div.title3{
     padding-right: 30px;
     font-family: chaparral;
     padding-top: 40px;
+}
+
+.rightpar{
+    font-family: chaparral;
 }
 
 .top-buffer-200{
