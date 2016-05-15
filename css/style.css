@@ -206,3 +206,28 @@ img.resize{
 #multicolor{
     background: linear-gradient(to bottom,  #f6f6f6 0%,#f6f6f6 75%,white 75%,white 100%);
 }
+
+#footer {
+    background-color: #580380;
+    color: #ffffff;
+    padding: 30px;
+    font-family: roboto;
+}
+
+div#tickets-footer {
+    padding-top: 50px;
+}
+
+div#press-footer {
+    padding-top: 100px;
+}
+
+div#sponsors-footer {
+    margin-top: -100px;
+    text-align: center;
+    position: relative;
+}
+
+p#footer {
+    padding: 200px;
+}
