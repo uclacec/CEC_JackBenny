@@ -13,6 +13,11 @@
     src: url(../fonts/Didot_Bold_Italic.ttf);
 }
 
+@font-face{
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
 /*Brian's CSS*/
 
 div.green_screen{
@@ -116,11 +121,22 @@ img.image_squiggle{
 /*Lucas's CSS*/
 
 div.title3{
-    font-size: 80px;
+    font-size: 120px;
     font-family: bebas_bold;
     color: #F6F6F6;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #48cb92;
+    margin-left: 12.5%;
+    z-index: 1;
+}
+
+.shadow-border{
+    border-color: #6a0b8c;
+    border-width: 20 px;
+    border-style: solid;
+    filter: alpha(opacity=0);
+    box-shadow: 15px 15px 0px #6a0b8c;
+    padding-top: 50px;
 }
 
 .fill{
@@ -131,21 +147,50 @@ div.title3{
     height: 38%;
 }
 
-.padright{
+.leftpar{
     padding-right: 30px;
-    font-family: chaparral;
+    font-family: roboto;
+    padding-top: 40px;
+}
+
+.rightpar{
+    font-family: roboto;
+    padding-bottom: 40px;
 }
 
 .top-buffer-50{
     margin-top: 50px;
 }
 
-#lightgrey{
-    background-color: #F6F6F6;
-    padding-top: 40px;
+.reciplist{
+    font-family: roboto;
+    font-size: 20px;
+    color: #6a0b8c;
+    margin-top: -100px;
+    z-index: 9999999;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#left{
+    margin-left: 27%;
+    float: left;
+}
+#right{
+    margin-left: 20%;
+    float: left;
 }
 
 img.resize{
     width: 400px;
     height:auto
+}
+
+#lightgrey{
+    background-color: #F6F6F6;
+    padding-top: 100px;
+}
+
+#multicolor{
+    background: linear-gradient(to bottom,  #f6f6f6 0%,#f6f6f6 75%,white 75%,white 100%);
 }
