@@ -229,6 +229,10 @@ div#sponsors-footer {
     position: relative;
 }
 
+img.footer_img{
+    width: 170px;
+}
+
 p#footer {
     padding: 200px;
 }
