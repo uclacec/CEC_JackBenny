@@ -15,7 +15,7 @@
 
 @font-face{
     font-family: roboto;
-    src: url(../fonts/Robot-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
 }
 
 /*Brian's CSS*/
@@ -131,12 +131,12 @@ div.title3{
 
 .leftpar{
     padding-right: 30px;
-    font-family: chaparral;
+    font-family: roboto;
     padding-top: 40px;
 }
 
 .rightpar{
-    font-family: chaparral;
+    font-family: roboto;
     padding-bottom: 40px;
 }
 
@@ -145,7 +145,7 @@ div.title3{
 }
 
 .reciplist{
-    font-family: chaparral;
+    font-family: roboto;
     font-size: 20px;
     color: #6a0b8c;
     margin-top: -100px;
